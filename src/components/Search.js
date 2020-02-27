@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default Search = props => {
+const Search = props => {
   const [searchValue, setSearchValue] = useState("");
 
   const handleSearchInputChanges = e => {
@@ -28,3 +28,5 @@ export default Search = props => {
     </form>
   );
 };
+
+export default Search;
